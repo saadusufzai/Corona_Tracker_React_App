@@ -17,7 +17,7 @@ const Charts = () => {
        fetchAPI()
     })
     
-    console.log(dailyData)
+   
     const lineChart = (
     dailyData
         ?(
