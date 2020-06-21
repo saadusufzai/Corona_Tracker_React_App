@@ -24,7 +24,8 @@ const Charts = ( {data: {confirmed , recovered, deaths}, country}) => {
         <Line
             data={{
                 labels: dailyData.map(({date}) => date),
-                datasets: [{
+                datasets: [
+                    {
                     data: dailyData.map(({ confirmed })=> confirmed),
                     label: 'Infected',
                     borderColor: '#333ff',
