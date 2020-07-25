@@ -26,7 +26,7 @@ jobs:
     - name: Setup Node.js Environment
       uses: actions/setup-node@v2-beta
       with:
-        version: 12  
+        node-version: 12  
 
     # Runs a set of commands using the runners
     - name: GitHub Action for Yarn
