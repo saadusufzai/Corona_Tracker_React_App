@@ -42,4 +42,4 @@ jobs:
       
       
     - name: deploying build to surge
-      run: surge ./build http://covid-19-tracker-by-saad.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://covid-19-tracker-by-saad.surge.sh/ --token ${{secrets.SURGE_KEY}}
